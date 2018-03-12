@@ -1,38 +1,68 @@
+.main_inner{
+    background: #972421;
+}
 .main_image_pic{
     margin-top: -4px;
 }
-
-.main_image1 .main_image_pic{
+.main_image{
     width: 100%;
+    height: 100%;
+    background: #972421;
+}
+.main_image .main_image_pic0{
+    /*position: relative;*/
+    margin: 0 auto;
+    background: url(../img/festival/inner/inner1.jpg)no-repeat center;
+    -webkit-background-size: 1920px 1000px;
+    background-size: 1920px 1000px;
+    height: 755px;
+}
+.main_image .main_image_pic img{
+    width: 100%;
+    margin-top: -4px;
+}
+.main_inner .main_image .main_image_pic{
+    /*position: relative;*/
+    margin: 0 auto;
+    width: 1902px;
     /*height: 1000px;*/
-    height: 10px;
+    height: 100%;
 
     background: #D62708;
 }
 
-.main_image2 .main_image_pic{
+.main_image2{
     width: 100%;
-    height: 1000px;
-    background: #B61C00;
+    height: 2000px;
+
+}
+.main_image2_box{
+    width: 100%;
+    height: 800px;
 }
 .main_image2 .main_image_pic .main_image_inner{
     position: relative;
+    top: 126px;
     margin: 0 auto;
     width: 990px;
-    height: 100%;
-    background: yellowgreen;
+    height: 690px;
+    overflow: hidden;
+    /*background: yellowgreen;*/
+}
+.main_image2 .main_image_pic{
+    height: 810px;
 }
 /******************标题栏*************************/
 .main_image2 .main_image_pic .main_image_tit{
     width: 992px;
     height: 70px;
-    background: orangered;
+    /*background: blue;*/
 }
 .main_image2 .main_image_pic .image_tit_txt{
     width: 248px;
     height: 70px;
     float: left;
-    background: #AE0518;
+    background: #4E4E4E;
 
 }
 .main_image_pic .image_tit_txt a{
@@ -49,16 +79,7 @@
 
 }
 /***************内容栏***********************/
-/*.main_image2 .main_image_pic .image_tit_txt:hover{*/
 
-    /*!*background: red;*!*/
-/*}*/
-
-.main_image2 .main_image_pic .main_image_inn{
-    width: 990px;
-    height: 100%;
-    background: #f2aa0e;
-}
 .main_image2 .main_image_pic .inner_list{
     position: relative;
     margin-right: -10px;
@@ -127,44 +148,354 @@
 
 /*标题栏移动*/
 .move_box{
-    width: 248px;
-    height:70px;
-    /*border: 1px solid red;*/
-    border-bottom: 1px solid #f2aa0e;
     position: absolute;
-    background: red;
     top: 0;
     left: 0;
-    /*-webkit-transition: left .5s linear;*/
-    /*-moz-transition: left .5s linear;*/
-    /*-ms-transition: left .5s linear;*/
-    /*-o-transition: left .5s linear;*/
-    /*transition: left .5s linear;*/
+    width: 248px;
+    height:70px;
+    background: #972421;
+}
 
+/*********************main_image*******************/
+.main_image2{
+    background: url(../img/festival/new.jpg) center 0 no-repeat;
+    height: 4096px;
+}
+.main_image2 .main_image_pic1{
+    position: relative;
+    /*top: 654px;*/
+    margin: 0px auto;
+    height: 680px;
+    background: url(../img/festival/new2-1.png) center 0 no-repeat;
+    background-size: 1451px 100px;
+
+}
+.main_image2 .main_image_pic1 .main_image_list{
+    margin: 125px auto;
+    position: relative;
+    top: 99px;
+    width: 1000px;
+    height: 600px;
+    /*border: 1px solid #000000;*/
+}
+/*******************festival————box*****************************/
+.main_image_pic1 .main_image_list .image_list_box{
+    position: relative;
+    margin: 0px auto;
+    width: 980px;
+    height:190px ;
+    /*border: 1px solid #ffffff;*/
+}
+.main_image_pic1 .main_list_li{
+    float: left;
+}
+.main_image_pic1 .main_list_box1 .main_list_li{
+    margin: 5px 4px;
+    width: 480px;
+    height:180px ;
+    /*border: 1px solid #ffffff;*/
+}
+.main_image_pic1 .main_list_box2 .main_list_li{
+    margin: 4px 4px;
+    width: 236px;
+    height:180px ;
+    /*border: 1px solid #ffffff;*/
+}
+.main_image_pic1 .main_list_box3 .main_list_li{
+    margin: 3px 4px;
+    width: 480px;
+    height:180px ;
+    /*border: 1px solid #ffffff;*/
+}
+/****************************main_image3****** f4*******************************/
+.main_image3{
+    position: relative;
+    width: 100%;
+    height: 700px;
+    /*margin: -36px auto;*/
+
+    top:111px;
+}
+.main_image3 .main_image3_inner{
+    position: relative;
+    /*top: 235px;*/
+    width: 1086px;
+    /*height: 2920px;*/
+    margin: 0px auto;
+
+}
+/*****************main_image3_slider************************/
+.main_image3 .main_image3_slider{
+    position: absolute;
+    width: 100% ;
+    height: 700px;
+    top: 0px;
+}
+
+.main_image3 .main_image3_slider .image3_slider_inner{
+    /*position: absolute;*/
+
+    width: 1800px ;
+    height: 270px;
+    margin: 0px auto;
+    /*margin-top: 58px;*/
+    /*background: #000;*/
+    /*opacity: 0.6;*/
+}
+.main_image3 .main_image3_slider .slider_inner{
+    width: 250px ;
+    height: 260px;
+    /*margin: 0px auto;*/
+    margin-left: 30px;
+    /*background: red;*/
+    float: left;
+    /*opacity: 0.6;*/
+}
+/*热销手机*/
+.main_image3 .main_image3_price .slider_inner1 {
+    position: absolute;
+    width: 18px;
+    height: 260px;
+    font-size: 34px;
+    top: 86px;
+    left: 180px;
+}
+/*image_slider轮播*/
+.main_image3 #image_demo{
+    width: 900px;
+    height: 260px;
+    overflow: hidden;
+    margin-top: 58px;
+    margin-left:230px ;
+
+}
+.slider_inner_id{
+    width: 840px;
+    height: 260px;
+    /*margin-left: 0px;*/
+    overflow: hidden;
+}
+.slider_inner_id a{
+    display: block;
+    padding: 15px 43px;
+}
+.slider_inner_id a img{
+    width: 160px;
+    /*height: 160px;*/
+    display: block;
+    opacity: 0.8;
+}
+.slider_inner_id .slider_title{
+    height: 14px;
+    line-height: 14px;
+    text-align: center;
+    margin-top: 5px;
+}
+.slider_inner_id .slider_desc{
+    height: 12px;
+    line-height: 12px;
+    text-align: center;
+    margin: 5px 0;
+    font-size: 12px;
+    color:rgb(176,176,176);
+}
+.slider_inner_id .slider_price{
+    font-size: 14px;
+    text-align: center;
+    color: #ff6709;
+}
+/*****************************main_fixed**************************/
+.main_fixed{
+    /*width: 100%;*/
+    /*background: yellowgreen;*/
+}
+.main_fixed .main_fixed_inner{
+    display: none;
+    position: fixed;
+    z-index: 100;
+    top: 30%;
+    width: 50px;
+    left: 10%;
+    height: auto;
+    background: yellowgreen;
+}
+/**********************lift******************************/
+
+.fixed_lift .fixed_lift_item1:hover,.fixed_lift_item1.hover{
+    position: relative;
+    border-bottom:1px solid red;
+    margin-bottom:-1px;
+    border-color: #d70b1c;
+    background: red;
 }
 
 
+/******************其他的**********************/
+.fixed_lift .fixed_lift_item{
+    border-top:none;
+    display: list-item;
+    display: block;
+    box-shadow: 0 0 4px rgba(0,0,0,.2);
+    background: #918888;
+}
+.fixed_lift .fixed_lift_item:hover,.fixed_lift_item.hover{
+    position: relative;
+    border-bottom:1px solid red;
+    margin-bottom:-1px;
+    border-color: #760000;
+    background: #760000;
+}
+.fixed_lift .fixed_lift_item .lift_item{
+    display: block;
+    color: #fff;
+    overflow: hidden;
+    width:33px;
+    line-height: 18px;
+    text-align: center;
+    padding:8px 7px;
+    transition:color .1s;
+}
+.fixed_lift .fixed_lift_item .lift_item span{
+    font-size:12px;
+    color: #fff;
+    cursor: pointer;
+}
 
+/*******************main_image_floorA*************************/
+.main_image_floorA{
+    position: relative;
+    width: 100%;
+    height: 830px;
+    top: 100px;
+}
+.main_image_floorB{
+    position:relative;
+    width: 100%;
+    height: 888px;
+    top: 100px;
+}
+/**********************工具栏一*******************************/
+.rz_toolbar_tabs{
+    position: fixed;
+    z-index:999;
+    right:0;
+    bottom:110px;
+    width:45px;
+    height:236px;
+    background: transparent;
 
+}
+.rz_toolbar_tabs .rz_toolbar_tab{
+    background: #766C6C;
+    height:45px;
+    border-radius:4px;
+}
+.rz_toolbar_tabs>div:not(:first-child){
 
+    margin-top:1px;
+}
+/*工具栏图标*/
+.rz_toolbar_tabs .rz_toolbar_tab .tab-ico{
+    background: url("../img/festival_floorend/toolbars.png") no-repeat;
 
+}
+/*图标定位1*/
+.rz_toolbar_tabs .rz_toolbar_tab_jdvip .tab-ico{
+    position: absolute;
+    width:288px;
+    height:180px;
+    margin-top:13px;
+    margin-left:15px;
+    background-position: -96px -182px;
+}
+/*图标定位2*/
+.rz_toolbar_tabs .rz_toolbar_tab_cart .tab-ico{
+    position: absolute;
+    width:18px;
+    height:18px;
+    margin-top:13px;
+    margin-left:15px;
+    background-position: -57px -8px;
+}/*图标定位3*/
+.rz_toolbar_tabs .rz_toolbar_tab_follow .tab-ico{
+    position: absolute;
+    width:18px;
+    height:18px;
+    margin-top:13px;
+    margin-left:15px;
+    background-position: -57px -57px;
+}/*图标定位4*/
+.rz_toolbar_tabs .rz_toolbar_tab_histoty .tab-ico{
+    position: absolute;
+    width:18px;
+    height:18px;
+    margin-top:13px;
+    margin-left:15px;
+    background-position: -57px -108px;
+}/*图标定位5*/
+.rz_toolbar_tabs .rz_toolbar_tab_message .tab-ico{
+    position: absolute;
+    width:18px;
+    height:18px;
+    margin-top:13px;
+    margin-left:15px;
+    background-position: -197px -156px;
+}/*图标定位6*/
+.rz_toolbar_tabs .rz_toolbar_tab_jimi .tab-ico{
+    position: absolute;
+    width:18px;
+    height:18px;
+    margin-top:13px;
+    margin-left:15px;
+    background-position: -57px -157px;
+}/*图标定位7*/
+.rz_toolbar_tabs .rz_toolbar_tab_top .tab-ico{
+    position: absolute;
+    width:18px;
+    height:18px;
+    margin-top:13px;
+    margin-left:15px;
+    background-position: -58px -260px;
+}
+/*图标定位8*/
+.rz_toolbar_tabs .rz_toolbar_tab_feedback .tab-ico{
+    position: absolute;
+    width:18px;
+    height:18px;
+    margin-top:13px;
+    margin-left:15px;
+    background-position: -57px -309px;
+}
+/*************************工具栏二*****************************/
+.rz_toolbar_footer{
+    position: fixed;
+    z-index:999;
+    right:0;
+    bottom:0;
+    width:45px;
+    height:100px;
+    background:transparent;
+}
 
+.rz_toolbar_footer .rz_trigeer{
+    width:45px;
+    height:45px;
+    background: #766C6C;
+    border-radius:4px
+}
+.rz_toolbar_footer>div:last-child{
+    margin-top:1px;
 
+}
+.rz_toolbar_footer .rz_trigeer em{
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    color: #fff;
+    font-size:12px;
+    text-align: center;
+}
+.rz_toolbar_footer .rz_trigeer em:hover{
+    color: red;
+}
 
 
 
